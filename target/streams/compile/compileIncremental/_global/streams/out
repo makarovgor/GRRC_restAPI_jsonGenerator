@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 42 products, 12 sources, 15 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/target/scala-2.13/src_managed/main/scalapb/service/service_json/JsonReq1.scala, ${BASE}/src/main/scala/json/generator/JsonGenerator.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/service/service_json/JsonReq2.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/service/service_json/JsonResp2.scala, ${BASE}/src/main/scala/rest/RestAPI.scala, ${BASE}/src/main/scala/rpc/GRPC.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/service/service_json/JsonServiceGrpc.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/service/service_json/JsonResp1.scala, ${BASE}/src/main/scala/rpc/JsonServiceImpl.scala, ${BASE}/target/scala-2.13/src_managed/main/scalapb/service/service_json/ServiceJsonProto.scala, ${BASE}/src/main/scala/json/Json.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(${BASE}/src/main/scala/gRPC/Client.scala), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

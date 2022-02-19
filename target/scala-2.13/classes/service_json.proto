@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package service;
+
+service JsonService {
+  rpc unary(JsonReq1) returns (JsonResp1);
+  rpc serverStreaming(JsonReq2) returns (stream JsonResp2);
+}
+
+message JsonReq1 {
+  int32 bytes = 1;
+}
+
+message JsonResp1 {
+  optional string json = 1;
+}
+
+message JsonReq2 {
+  int32 size = 1;
+  int32 batch_size = 2;
+}
+
+message JsonResp2 {
+  repeated string json = 1;
+}

@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/s.makarov/IdeaProjects/jsonGenerator/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/Server/Server.scala:23:46: not found: value :?[0m
+[0m[[0m[31merror[0m] [0m[0m              case Root / "api" / "generate" :? IntParam(size) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/Server/Server.scala:23:33: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m              case Root / "api" / "generate" :? IntParam(size) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/Server/Server.scala:23:25: not found: value /[0m
+[0m[[0m[31merror[0m] [0m[0m              case Root / "api" / "generate" :? IntParam(size) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/Server/Server.scala:23:49: not found: value IntParam[0m
+[0m[[0m[31merror[0m] [0m[0m              case Root / "api" / "generate" :? IntParam(size) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 26 янв. 2022 г., 13:50:15[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

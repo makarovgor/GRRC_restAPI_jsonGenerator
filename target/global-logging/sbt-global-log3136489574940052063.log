@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 7 Scala sources to /Users/s.makarov/IdeaProjects/jsonGenerator/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/gRPC/GRPC.scala:4:12: not found: value Person[0m
+[0m[[0m[31merror[0m] [0m[0m  val p1 = Person()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/gRPC/GRPC.scala:6:12: not found: value Person[0m
+[0m[[0m[31merror[0m] [0m[0m  val p2 = Person(name = Some("John"))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/gRPC/GRPC.scala:6:19: not found: value name[0m
+[0m[[0m[31merror[0m] [0m[0m  val p2 = Person(name = Some("John"))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 30 янв. 2022 г., 21:44:30[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

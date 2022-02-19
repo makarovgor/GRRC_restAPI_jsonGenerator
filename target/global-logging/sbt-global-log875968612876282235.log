@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/s.makarov/IdeaProjects/jsonGenerator/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/s.makarov/IdeaProjects/jsonGenerator/src/main/scala/grpc/GRPC.scala:11:49: not found: type JsonServiceImpl[0m
+[0m[[0m[31merror[0m] [0m[0m  val service = JsonServiceGrpc.bindService(new JsonServiceImpl, ExecutionContext.global)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 7 февр. 2022 г., 13:35:36[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

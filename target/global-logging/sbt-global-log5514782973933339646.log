@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(asd, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: asd (similar: last, alias, tasks)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: asd[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: asd (similar: tags, ps, doc)[0m
+[0m[[0m[31merror[0m] [0m[0masd[0m
+[0m[[0m[31merror[0m] [0m[0m   ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
